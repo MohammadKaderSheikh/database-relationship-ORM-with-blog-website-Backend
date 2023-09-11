@@ -17,7 +17,7 @@ class PostsTableSeeder extends Seeder
     {
         DB::table('posts')->insert([
             'user_id' => 2, // Assuming user ID 1
-            'title' => 'Sample Post',
+            'title' => ' dsfsd  Sample Post',
             'content' => 'This is the content of the sample post.',
         ]);
     }
